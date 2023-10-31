@@ -245,11 +245,11 @@
   .info h3 {
     margin: 0;
     font-size: 1.5rem;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
   }
   .info p {
-    letter-spacing: 0;
-    font-size: 14px;
+    /* letter-spacing: 0; */
+    font-size: 16px;
     font-weight: 400;
   }
   .distance {
@@ -262,10 +262,10 @@
     margin-top: 1.5rem;
   }
   .distance table thead {
-    font-weight: 600;
+    font-weight: 700;
   }
   .distance table thead > tr > td {
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 20px;
   }
   .distance table tr > td:nth-child(2) {
@@ -273,9 +273,10 @@
   }
   
   .distance table tbody > tr > td {
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
     font-weight: 400;
+    font-family: Lato, sans-serif;
   }
   
   .location-btn {
@@ -329,7 +330,7 @@
       margin-top: 20px;
       font-weight: 400;
       color: #000;
-      letter-spacing: 0.5px;
+      /* letter-spacing: 0.5px; */
     }
     .distance {
       margin-top: 40px;
