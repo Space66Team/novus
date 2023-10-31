@@ -2,7 +2,6 @@ let indexInfoWindow = 0;
 const allMarkers = [];
 let currentTabMarkers = [];
 let map;
-let scrolled = 0;
 
 const locations = [
   {
